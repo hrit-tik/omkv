@@ -1,26 +1,25 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Odu Mayile Kandam Vazhi (OMKV)🦚
 
 
-## Basic Details
-### Team Name: [Name]
+##
+### Team Name: Charge aayi🔋
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Hritik Krishna [CEP]
+- Member 2: Sudev S [CEP]
 
 ### Project Description
-[2-3 lines about what your project does]
+ In a hypothetical situation in which a mayil, i.e, a peacock needs to run through the nearest kandam, i.e, field. We are making an app to help that guy. When our dear mayil enters it's current location, it will show the shortest distance to the nearest kandam.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Hypothetical mayil which spawned in my living room wanna run through a kandam.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+An app in which the mayil can enter its current location and get the directions the nearest kandam.
 
 ## Technical Details
 ### Technologies/Components Used

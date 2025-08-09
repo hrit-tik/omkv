@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Peacock Verification</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: url('huh.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+    .captcha-box {
+      background: white;
+      padding: 30px 50px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .checkbox {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .round-loader {
+      border: 3px solid #ddd;
+      border-top: 3px solid #4cafef;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: spin 1s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .checked {
+      background-color: #4cafef;
+      border-radius: 4px;
+      padding: 3px 6px;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="captcha-box">
+    <h2>മയിൽ തന്നെ നീ?</h2>
+    <p>(അമ്മയാണെ സത്യം?)</p>
+
+    <div class="checkbox" onclick="verifyPeacock()">
+      <div id="checkbox">☐</div>
+      <span>I'm a മയിൽ</span>
+      <div id="loader" class="round-loader"></div>
+    </div>
+  </div>
+
+  <script>
+    let verified = false;
+
+    function verifyPeacock() {
+      if (verified) return;
+      verified = true;
+
+      const checkbox = document.getElementById("checkbox");
+      const loader = document.getElementById("loader");
+
+      checkbox.textContent = "☑";
+      checkbox.classList.add("checked");
+      loader.style.display = "inline-block";
+
+      setTimeout(() => {
+        sessionStorage.setItem("verifiedPeacock", "true");
+        window.location.href = "omkvnew.html"; // your map page
+      }, 1500);
+    }
+  </script>
+
+</body>
+</html>
