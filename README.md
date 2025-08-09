@@ -21,78 +21,51 @@ Hypothetical mayil which spawned in my living room wanna run through a kandam.
 ### The Solution (that nobody asked for)
 An app in which the mayil can enter its current location and get the directions the nearest kandam.
 
-## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+##Technical Details
+###Technologies/Components Used
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Software:
+
+Languages used: JavaScript (Frontend), HTML, CSS
+
+Frameworks used: None
+
+Libraries used: Google Maps JavaScript API (for maps & distance calculation)
+
+Tools used: VS Code, GitHub, Browser DevTools
+
+
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
 # Run
-[commands]
+(http://omkv.vercel.app)
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1919" height="903" alt="Screenshot 2025-08-09 085626" src="https://github.com/user-attachments/assets/05f9c24d-bd17-4e2f-ae1f-1dcd6712e1ce" />]
+Captcha page to verify it's actually a mayil and not a cunning human disguised as a mayil.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1919" height="899" alt="Screenshot 2025-08-09 085645" src="https://github.com/user-attachments/assets/d9cbb568-f301-4207-bc5d-38e102200cfc" />]
+Mayil's current location is fetched, and nearest kandam is located.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![<img width="1919" height="908" alt="Screenshot 2025-08-09 085359" src="https://github.com/user-attachments/assets/f1b22bfe-f9da-4ae1-8057-4ffefab45ae7" />]
+Street view showing mayil and a nearby kandam.
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://github.com/user-attachments/assets/c28932be-bf89-442b-a2c2-56702a86dba9]
+Full working of the omkv app.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Hritik : Basic idea, captcha code
+- Sudev : Whole base code, Gmaps API
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+Made with ❤️ at TinkerHub Useless Projects 2.0
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
